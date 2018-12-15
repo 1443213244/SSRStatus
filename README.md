@@ -3,8 +3,6 @@
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 * SSRStatus是一个可以在线监控Shadowsocks/ShadowsocksR账号的云探针、云监控探针~，该云监控的网页文件基于ServerStatus（ https://github.com/ToyoDAdoubi/ServerStatus-Toyo/ ）项目。
-* 在线演示：https://sstz.toyoo.ml/
-* 我的博客：https://doub.io/shell-jc5/
 
 # 更新说明：
 
@@ -15,11 +13,8 @@
 
 执行下面的代码下载并运行脚本。
 ```Bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssrstatus.sh && chmod +x ssrstatus.sh && bash ssrstatus.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/1443213244/Monitor/master/ssrstatus.sh&& chmod +x ssrstatus.sh && bash ssrstatus.sh
 
-# 如果上面这个脚本无法下载，尝试使用备用下载：
-wget -N --no-check-certificate https://softsmirror.cf/Bash/ssrstatus.sh && chmod +x ssrstatus.sh && bash ssrstatus.sh
-```
 下载并运行脚本后会出现脚本操作菜单，选择并输入` 1 `就会开始安装。
 
 一开始会提示你输入 网站服务器的域名和端口，如果没有域名可以直接回车代表使用` 本机IP:8888 `。
@@ -156,7 +151,3 @@ ssr://yyyyyyyy###DOUBI2###Hong Kong###true
 ssr://zzzzzzzz###DOUBI3###洛杉矶(支持中文，只要你系统支持显示和输入)###fales" >> ssr_status.conf
 ```
 
-# 相关开源项目： 
-
-* ServerStatus：https://github.com/ToyoDAdoubi/ServerStatus-Toyo/
-* ssr_check.sh: https://github.com/ToyoDAdoubi/doubi
