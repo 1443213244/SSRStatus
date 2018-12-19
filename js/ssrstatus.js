@@ -68,8 +68,12 @@ function uptime() {
 			TableRow.children["name"].innerHTML = result.servers[i].name;
 			
 			// Type
-			TableRow.children["type"].innerHTML = result.servers[i].type;
-			
+			if(result.servers[i].type == "Shadowsocks"){
+				TableRow.children["type"].innerHTML = "S";
+			}else{
+				TableRow.children["type"].innerHTML = "R";
+			}
+		
 			// Type_1
 			TableRow.children["type_1"].innerHTML = result.servers[i].type_1;
 
